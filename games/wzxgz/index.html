@@ -124,8 +124,8 @@
         language: (navigator.browserLanguage || navigator.language).toLowerCase()
     };
     window.shareData = {
-        "imgUrl"      : "http://game.3gjj.cn/icon/wzxgz.png",
-        "timeLineLink": "http://game.3gjj.cn/game/wzxgz",
+        "imgUrl"      : "https://xueyes.github.io/icon/wzxgz.png",
+        "timeLineLink": "https://xueyes.github.io/game/wzxgz",
         "tTitle"      : "围住小鬼子，你抓住了几个战犯！",
         "tContent"    : "壮志饥餐胡虏肉，笑谈渴饮匈奴血！"
     };
@@ -149,13 +149,13 @@
         $("#wxShareGuide").css("display","none"); 
     }
 
-    var xhurl = "http://game.3gjj.cn";
+    var xhurl = "https://xueyes.github.io";
 
     function showme(){
         window.location.href = xhurl;     
     };
 
-    var mebtnopenurl = "http://game.3gjj.cn";
+    var mebtnopenurl = "https://xueyes.github.io";
     document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
         
         WeixinJSBridge.on('menu:share:appmessage', function(argv) {

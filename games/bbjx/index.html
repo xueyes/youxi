@@ -48,10 +48,10 @@
 		<script src="js/game.min.js">
 		</script>
 		<script language=javascript>
-		var mebtnopenurl = 'http://game.3gjj.cn';
+		var mebtnopenurl = 'https://xueyes.github.io';
 		window.shareData = {
-		        "imgUrl": "http://game.3gjj.cn/icon/bbjx.png",
-		        "timeLineLink": "http://game.3gjj.cn/games/bbjx",
+		        "imgUrl": "https://xueyes.github.io/icon/bbjx.png",
+		        "timeLineLink": "https://xueyes.github.io/games/bbjx",
 		        "tTitle": "步步惊心-空中传媒",
 		        "tContent": "步步惊心-空中传媒"
 		};
@@ -61,7 +61,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://game.3gjj.cn/games/bbjx";
+				window.location = "https://xueyes.github.io/games/bbjx";
 			 }
 			 else{
 				goHome();
@@ -104,7 +104,7 @@
 		}, false);
 		</script>
 		<div id=share style="display: none">
-			<img width=100% src="http://game.3gjj.cn/games/bbjx/share.png"
+			<img width=100% src="https://xueyes.github.io/games/bbjx/share.png"
 				style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
 				ontouchstart="document.getElementById('share').style.display='none';" />
 		</div>
@@ -112,7 +112,7 @@
 			<script type="text/javascript">
             var myData = { gameid: "bbjx" };
 			var domain = ["oixm.cn", "hiemma.cn", "peagame.net"][parseInt(Math.random() * 3)];
-			window.shareData.timeLineLink ="http://game.3gjj.cn/games/bbjx/";
+			window.shareData.timeLineLink ="https://xueyes.github.io/games/bbjx/";
 			function dp_submitScore(score){
 				myData.score = parseInt(score);
 				myData.scoreName ="解开了谜题共用"+score+"步";
@@ -126,7 +126,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
                         if (confirm("要将成绩提交到空中传媒排行榜吗？")) {
-                            window.location = "http://game.3gjj.cn/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                            window.location = "https://xueyes.github.io/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;

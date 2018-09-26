@@ -120,25 +120,25 @@
           document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
                 WeixinJSBridge.on('menu:share:appmessage', function(argv) {
                     WeixinJSBridge.invoke('sendAppMessage', {
-                        "img_url": "http://game.3gjj.cn/games/zhuogui/logo.png",
-                        "link": "http://game.3gjj.cn/games/zhuogui/index.html",
+                        "img_url": "https://xueyes.github.io/games/zhuogui/logo.png",
+                        "link": "https://xueyes.github.io/games/zhuogui/index.html",
                         "desc": "鬼节到了，我的手机见鬼了！！胆大的快来帮忙抓鬼啊！！",
                         "title": title
                     }, function(res) {
-                        document.location.href = "http://game.3gjj.cn/";
+                        document.location.href = "https://xueyes.github.io/";
                     })
                 });
 
                 WeixinJSBridge.on('menu:share:timeline', function(argv) {
                     WeixinJSBridge.invoke('shareTimeline', {
-                        "img_url": "http://game.3gjj.cn/games/zhuogui/logo.png",
+                        "img_url": "https://xueyes.github.io/games/zhuogui/logo.png",
                         "img_width": "120",
                         "img_height": "120",
-                        "link": "http://game.3gjj.cn/games/zhuogui/index.html",
+                        "link": "https://xueyes.github.io/games/zhuogui/index.html",
                         "desc": "鬼节到了，我的手机见鬼了！！胆大的快来帮忙抓鬼啊！！",
                         "title": title
                     }, function(res) {
-                        document.location.href = "http://game.3gjj.cn/";
+                        document.location.href = "https://xueyes.github.io/";
                     });
                 });
             }, false);

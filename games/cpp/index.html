@@ -107,10 +107,10 @@
 	});
 </script>
 <script language=javascript>
-		var mebtnopenurl = 'http://game.3gjj.cn';
+		var mebtnopenurl = 'https://xueyes.github.io';
 		window.shareData = {
-		        "imgUrl": "http://game.3gjj.cn/icon/cpp.png",
-		        "timeLineLink": "http://game.3gjj.cn/games/cpp/",
+		        "imgUrl": "https://xueyes.github.io/icon/cpp.png",
+		        "timeLineLink": "https://xueyes.github.io/games/cpp/",
 		        "tTitle": "戳泡泡",
 		        "tContent": "戳泡泡"
 		};
@@ -120,7 +120,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://game.3gjj.cn";
+				window.location = "https://xueyes.github.io";
 			 }
 			 else{
 				goHome();
@@ -170,7 +170,7 @@
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "cpp" };
-			window.shareData.timeLineLink = "http://game.3gjj.cn/index.html" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
+			window.shareData.timeLineLink = "https://xueyes.github.io/index.html" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
 			function dp_submitScore(score){
 				myData.score = score;
 				myData.scoreName = "戳了"+score+"分";
@@ -184,7 +184,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
                         if (confirm("要将成绩提交到游戏排行榜吗？")) {
-                            window.location = "http://game.3gjj.cn.com/index.html" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                            window.location = "https://xueyes.github.io.com/index.html" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;
