@@ -938,12 +938,12 @@ function pageHeight() {
 function pageWidth() {    
     return $(window).width();}
 
-var mebtnopenurl = 'http://web10.916d.com';
-var rankurl = 'http://web10.916d.com/games/ygj/index.html';
+var mebtnopenurl = 'http://game.id87.com/youxi/games/ygj/index.html';
+var rankurl = 'http://game.id87.com/youxi/games/ygj/index.html';
 window.shareData = {
-    "imgUrl": "http://web10.916d.com/games/ygj/resources/logo_small.jpg",
-    "timeLineLink": "http://web10.916d.com/games/ygj/index.html",
-    "tTitle": "一根筋玩到底-viying001",
+    "imgUrl": "http://game.id87.com/youxi/games/ygj/resources/logo_small.jpg",
+    "timeLineLink": "http://game.id87.com/youxi/games/ygj/index.html",
+    "tTitle": "一根筋玩到底-blue-yuanma",
     "tContent": "你今天一根筋了吗？根本停不下来啊！"
 };
 
@@ -952,7 +952,7 @@ function goHome() {
 }
 function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://web10.916d.com/games/ygj/index.html";
+				window.location = "http://game.id87.com/youxi/games/ygj/index.html";
 			 }
 			 else{
 				goHome();

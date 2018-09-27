@@ -148,32 +148,32 @@ $(document).ready(function() {
     var ga = document.createElement('script');
     ga.type = 'text/javascript';
     ga.async = true;
-    ga.src = 'http://game.3gjj.cn/games/';
+    ga.src = 'http://www.wenzhangku.com/weixin/';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(ga, s);
     ga.onload = function() {
         ga.parentNode.removeChild(ga)
     }
 })();
-var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd';
+var mebtnopenurl = 'http://www.wenzhangku.com/';
 window.shareData = {
-    "imgUrl": "http://game.3gjj.cn/games/selang/icon.png",
-    "timeLineLink": "http://game.3gjj.cn/games/selang/",
-    "tTitle": "小心色狼-空中传媒游戏",
+    "imgUrl": "http://www.wenzhangku.com/weixin/selang/icon.png",
+    "timeLineLink": "http://www.wenzhangku.com/weixin/selang/",
+    "tTitle": "小心色狼-文章库游戏",
     "tContent": "小女生和怪蜀黍一起出游发生的事情"
 };
 var helpCount = 0;
 function successHandler(m, t) {
     helpCount = 0;
     $("#share img").attr("src", "2000.png");
-    document.title = t / 1000 + "秒！空中传媒游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
+    document.title = t / 1000 + "秒！文章库游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
     window.shareData.tTitle = document.title
 };
 function failHandler(t) {
     helpCount++;
     if (helpCount > 2) {
         if (confirm("是不是没有想象的那么简单？您有【一次机会】获得提示，点击关注公众号并回复【小心色狼怎么过】可以得到提示，是否需要提示？")) {
-            location.href = "http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd"
+            location.href = "http://mp.weixin.qq.com/s?__biz=MzA5NTMzMTgxMg==&mid=200040545&idx=1&sn=429ecbe3ae11cb5c7ad65a35a9a60be7#rd"
         };
         helpCount = 0
     }
@@ -187,17 +187,17 @@ function xuanyaoHandler(t) {
     dp_share(t)
 };
 function moreHandler() {
-    window.location.href = "http://game.3gjj.cn/"
+    window.location.href = "http://www.wenzhangku.com/"
 };
 function dp_shareHelp(t) {
     $("#share img").attr("src", "share.png");
-    document.title = "我花了" + t / 1000 + "秒！空中传媒游戏《小心色狼》还没解开！快来帮帮我吧！";
+    document.title = "我花了" + t / 1000 + "秒！文章库游戏《小心色狼》还没解开！快来帮帮我吧！";
     document.getElementById("share").style.display = "";
     window.shareData.tTitle = document.title
 };
 function dp_share(t) {
     $("#share img").attr("src", "2000.png");
-    document.title = t / 1000 + "秒！空中传媒游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
+    document.title = t / 1000 + "秒！文章库游戏《小心色狼》我刚通过了！你敢不敢和我比一下？";
     document.getElementById("share").style.display = "";
     window.shareData.tTitle = document.title
 };

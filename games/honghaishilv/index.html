@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;">
-<meta name="keywords" content="壹心理游戏,辨色大比拼,空中传媒">
+<meta name="keywords" content="壹心理游戏,辨色大比拼">
 <meta name="description" content="辨色大比拼通过有趣的心理游戏训练你的眼睛和大脑的反应协调能力">
 <meta property="og:image" content="logo.jpg">
 <title>最坑人的辨色大比拼!</title>
@@ -302,9 +303,25 @@ body{background:url(460.jpg) repeat left top;color:#61696a;font-family:'Bree Ser
             <div class="fb_plugin">
             <p>分享给好友</p>
             <!---->
+<div class="baidu_share">
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare" style="margin-left:20px;">
+    <a class="bds_tsina" title="分享到新浪微博" href="honghaishilv.html"></a>
+    <a class="bds_qzone" title="分享到QQ空间" href="honghaishilv.html"></a>
+    <a class="bds_tqq" title="分享到腾讯微博" href="honghaishilv.html"></a>
+    <a class="bds_douban" title="分享到豆瓣网" href="honghaishilv.html"></a>
+    <a class="bds_renren" title="分享到人人网" href="honghaishilv.html"></a>
+    <a class="shareCount" href="honghaishilv.html" title="累计分享0次">0</a>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=603462" src="bds_s_v2.js"></script>
 
+<script type="text/javascript">
+document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+</script>
+<!-- Baidu Button END -->
+</div>
             <p><br><br><br></p>
-            <p><a href="honghaishilv.html" class="button retry">再玩一次</a>&nbsp;&nbsp;<a href="https://xueyes.github.io/" class="button ">更多精彩</a></p>
+            <p><a href="honghaishilv.html" class="button retry">再玩一次</a>&nbsp;&nbsp;<a href="https://mp.weixin.qq.com/s/5MD0WDVg6_ko2BPEotsOKQ" class="button ">更多精彩</a></p>
             <!---->
             </div>
             <!-- END fb_plugin -->
@@ -314,7 +331,7 @@ body{background:url(460.jpg) repeat left top;color:#61696a;font-family:'Bree Ser
     </div><!-- END all_quest -->
     <div class="hint"><ul><li class="tick" style="display: none;">对!</li><li class="cross" style="display: none;">错!</li></ul></div><!-- END hint -->
     
-    <div class="copyrights"><p style="font-size:17px;"><a href="https://xueyes.github.io/games/honghaishilv/" target="_blank" style="color:red;">看你有多色？</a>|<a href="https://xueyes.github.io/" target="_blank" title="更多游戏">更多游戏</a></p>
+    <div class="copyrights"><p style="font-size:17px;"><a href="https://xueyes.github.io/xueye/game/honghaishilv/" target="_blank" style="color:red;">看你有多色？</a>|<a href="https://mp.weixin.qq.com/s/5MD0WDVg6_ko2BPEotsOKQ" target="_blank" title="更多游戏">更多游戏</a></p>
     <script src="static/saved_resource"></script>
     </div>
     
@@ -329,12 +346,12 @@ body{background:url(460.jpg) repeat left top;color:#61696a;font-family:'Bree Ser
 window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(0,1)},0)});$(document).ready(function(){var i,totalQuest,timeUp,score,howto=$('.howto'),allQuest=$('.all_quest'),splash=$('.splash'),timeCountDiv=$(".timeCount"),totalQuestDiv=$('.totalQuest'),tickIcon=$('.tick'),crossIcon=$('.cross');init();function init(){i=1;totalQuest=20;timeUp=3500;score=0;$('.result').hide();howto.hide();$('.hint ul').children().hide();allQuest.children().hide();totalQuestDiv.hide().html('问题 '+i+' / '+totalQuest);splash.show()}$('.splash a').click(function(e){e.preventDefault();splash.hide();howto.fadeIn('slow')});$('.howto a').click(function(e){e.preventDefault();howto.hide();startGame()});$('.answer a').click(function(e){var ans=$(this).data('verify');var default_ans="dui";e.preventDefault();$('.answer a').addClass('disable_click');if(ans===default_ans){score+=1;tickIcon.fadeIn('slow',function(){$(this).fadeOut('fast')})}else{crossIcon.fadeIn('slow',function(){$(this).fadeOut('fast')})}$('.quest'+i).fadeOut('slow',function(){if(i<totalQuest&&timeUp>=1){i++;$('.quest'+i).fadeIn('slow',function(){$('.answer a').removeClass('disable_click')})}else{showResult();clearInterval(timeLoop)}totalQuestDiv.html('问题 '+i+' / '+totalQuest)})});$('.retry').click(function(e){e.preventDefault();init()});function startGame(){$('.quest1').show();timeCountDiv.show();totalQuestDiv.show();timeLoop=setInterval(timeUpCount,1000/60)}function timeUpCount(){var time=parseInt(timeUp);var minutes=Math.floor(time/60);var seconds=time%60;if(timeUp>=1){timeUp--}else{showResult();clearInterval(timeLoop)}timeCountDiv.html("时间 "+minutes+":"+seconds)}function showResult(){allQuest.children().hide();totalQuestDiv.hide();timeCountDiv.hide();$('.result .score').html('答对'+score+'个题，共'+totalQuest+'题.色感'+score*5+'分；');$('.result').fadeIn('slow');dp_submitScore(score)}});
 </script>
 <script language="javascript">
-		var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd';
+		var mebtnopenurl = 'http://game.id87.com/youxi/';
 		window.shareData = {
 		        "imgUrl": "logo.jpg",
-		        "timeLineLink": "https://xueyes.github.io/games/honghaishilv/",
+		        "timeLineLink": "https://xueyes.github.io/xueye/game/honghaishilv/",
 		        "tTitle": "最坑人的辨色大比拼！",
-		        "tContent": "全世界最坑的辨色大比拼，1分钟内让你抓狂不已！请关注空中传媒：mkongzhong"
+		        "tContent": "全世界最坑的辨色大比拼，1分钟内让你抓狂不已！"
 		};
 		
 		function dp_submitScore(t){
@@ -362,7 +379,7 @@ window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(
 		}
 		function dp_Ranking(){
 			//alert("到更多");
-			document.location.href = "https://xueyes.github.io/";
+			document.location.href = "http://game.id87.com/youxi/";
 		}
 		document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
 		    
@@ -391,6 +408,10 @@ window.addEventListener("load",function(){setTimeout(function(){window.scrollTo(
 		    });
 		}, false);
 </script>
+
+<span style="display: none">
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=34915524" charset="UTF-8"></script>
+</span>
 
 </body></html>
 <SCRIPT Language=VBScript><!--

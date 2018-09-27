@@ -1,3 +1,8 @@
+<?php
+$y = empty($_GET['name'])?'':$_GET['name'];
+$sex = empty($_GET['address'])?'':$_GET['address'];
+$x = empty($_GET['num'])?'':$_GET['num'];
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -29,36 +34,52 @@
     .aa .bb .lt{ width:20%; max-width:72px; height:100%; position:absolute; top:0; left:2%; text-align:left;}
     .aa .bb .lt img{ width:100%; max-width:72px; vertical-align:middle;}
     .aa .bb .ct{ padding:0 32% 0 22%; height:100%; color:#FFF; text-align:center;font-size: 10px;}
-    .aa .bb .rt{ width:30%; height:100%; max-width:160px; position:absolute; top:0; right:10%; text-align:right;}
+    .aa .bb .rt{ width:30%; height:100%; max-width:160px; position:absolute; top:0; right:2%; text-align:right;}
     .aa .bb .rt .btn{ width:100%; display:inline-block; padding:6% 0; color:#FFF; text-decoration:none; text-align:center; border-radius:5px; background:#399B39; font-size:15px;}
 		
     </style>
 </head>
 <body>
-
-
-
-
-
 <!--编辑区域 start-->
+
 <div class="msg" id="stepOne">
-	<div class="msginfo">送上你的祈福</div>
+	<div class="msginfo"><?=$y?>来自<?=$sex?>的送出了他的祈福</div>
+	
+    <div class="info margintop2">为云南鲁甸县祈福，为灾区的所有同胞祈福！</div>        
 </div>
-<div class="infonum margintop2">为灾区祈福<br>已有5445993位变态小游戏用户为灾区祈福</div> </div> 
+<div class="infonum margintop2">第<?=$x?>位微信用户为灾区祈福<br>已2201600十微信用户为灾区祈福</div> </div> 
+<DIV class="txt"><span class="bigfont">
+  
+</span></DIV>
+</DIV>
 <div class="btn">
-    <a href="index.php.html">我也要祈福</a>
+    <a href="http://game.id87.com/game/qifu/qifu/">我也要祈福</a><!--http://192.168.1.188/2 替换为你的域名例如http://game.id87.com/zhufu/index.htm-->
 </div>
 <!--编辑区域 end-->
 <div class="aa">
     <div class="bb">
+        <div class="lt">        
+        <table width="100%" height="100%" border="0">
+          <tr>
+            <td align="center" valign="middle"><a href="game.id87.com"><img src="http://app100620636.qzone.qzoneapp.com/wap_hly/public/resource/assets/h_logo.png" /></a></td>
+          </tr>
+        </table>
+      </div>
         <div class="rt">
             <table width="100%" height="100%" border="0">
               <tr>
-                <td align="center" valign="middle"><a href="{tuiguanglink}" class="btn">关注我</a></td>
+                <td align="center" valign="middle"><a href="http://game.id87.com/" class="btn">自定义按钮</a></td>
               </tr>
             </table>
         </div>
+         <div class="ct">
+        <table width="100%" height="100%" border="0">
+          <tr>
+            <td align="center" valign="middle"><a href="http://game.id87.com/" style="color:#fff;">自定义内容自定义内容<Br />自定义内容自定义内容！</a></td>
+          </tr>
+        </table>
+        </div>
     </div>
 </div>
-<img src="http://c.cnzz.com/wapstat.php?siteid=1252958148&r=&rnd=1293620507" width="0" height="0"/>{tongji}</body>
+</body>
 </html>

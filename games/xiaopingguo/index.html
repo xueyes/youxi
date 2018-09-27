@@ -85,12 +85,12 @@ display: none;
     </style>
     <script type="text/javascript" src="http://tajs.qq.com/stats?sId=35420161" charset="UTF-8"></script>
 </head>
-<body onLoad="init()">
+<body onload="init()">
 	
 	<script type="text/javascript">
 	window.shareData = {
-	        "imgUrl": "./icon/xiaopingguo.png",
-	        "timeLineLink": "https://xueyes.github.io/games/xiaopingguo/",
+	        "imgUrl": "https://mp.weixin.qq.com/s/5MD0WDVg6_ko2BPEotsOKQxiaopingguo/l.png",
+	        "timeLineLink": "https://mp.weixin.qq.com/s/5MD0WDVg6_ko2BPEotsOKQxiaopingguo/",
 	        "tTitle": "我是你的小呀小苹果！",
 	        "tContent": "我是你的小呀小苹果,怎么爱你都不嫌多！"
 	    };
@@ -340,7 +340,7 @@ display: none;
 		
 		//增加用户微币
 		var addCoins = Math.ceil(_gameScore / 5);
-		$.get("https://xueyes.github.io" + addCoins + "&user=",
+		$.get("http://mmbiz.qpic.cn/games/fight_pig/fightPigData.php?addCoins=" + addCoins + "&user=",
 			function(data,status){
 				//alert(data);
 				if(data >= 3){
@@ -375,7 +375,7 @@ display: none;
 		hideGameScoreLayer();
 		showWelcomeLayer();
 	}
-	var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd';
+	var mebtnopenurl = 'http://mp.weixin.qq.com/s?__biz=MzA5NTMzMTgxMg==&mid=200040545&idx=1&sn=429ecbe3ae11cb5c7ad65a35a9a60be7#rd';
 	function shareText( score ){
 		var coins = Math.ceil(score / 5);
 		if( score <= 49 )
@@ -458,21 +458,21 @@ display: none;
 			<div id="GameScoreLayer-bast">最佳</div>
 			<br/>
 			<div id="GameScoreLayer-btn" class="BOX">
-				<div class="btn BOX-S" onClick="replayBtn()">重来</div>&nbsp;
-				<div class="btn BOX-S" onClick="share()">分享到朋友圈</div>&nbsp;
+				<div class="btn BOX-S" onclick="replayBtn()">重来</div>&nbsp;
+				<div class="btn BOX-S" onclick="share()">分享到朋友圈</div>&nbsp;
 				
 			</div>
 			<br/>
 			<div align="center" style="font-size:0.8em;">
-				<a class="btn BOX-S" align="center" style="color:white" href="https://xueyes.github.io/games/">更多游戏</a>
+				<a class="btn BOX-S" align="center" style="color:white" href="https://xueyes.github.io/xueye">更多游戏</a>
 				<br/>
-				<a  class="btn BOX-S" align="center" style="color:white" href="http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd">关注我们</a>
+				<a  class="btn BOX-S" align="center" style="color:white" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2OTcxMzc5Ng==&scene=126#wechat_redirect">关注我们</a>
 			</div>
 			
 			
 			<div align="center" style="font-size:0.8em;">
 				
-				<br/><a  class="btn BOX-S" align="center" style="color:white" href="https://xueyes.github.io">空中传媒</a>
+				<br/><a  class="btn BOX-S" align="center" style="color:white" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2OTcxMzc5Ng==&scene=126#wechat_redirect">手机关注公众号</a>
 				
 			</div>
 			
@@ -491,8 +491,8 @@ display: none;
 				<div id="ready-btn" class="btn loading" style="display:inline-block; margin:0 auto; width:8em; height:1.7em; line-height:1.7em; font-size:2.2em; color:#fff;"></div>
 			<br/><br/><br/>
 			
-			<div style="font-size:1.6em;"><a style="color:#fff" href="https://xueyes.github.io/">更多游戏</a></div></br>
-				<div style="font-size:1.6em;"><a style="color:#fff" href="http://mp.weixin.qq.com/s?__biz=MzI4MjA2MjE0MQ==&mid=246005295&idx=1&sn=490f8141976d607ba079d48f52a3fcd7#rd">关注我们</a></div>
+			<div style="font-size:1.6em;"><a style="color:#fff" href="https://xueyes.github.io/xueye">更多游戏</a></div></br>
+				<div style="font-size:1.6em;"><a style="color:#fff" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI2OTcxMzc5Ng==&scene=126#wechat_redirect">关注我们</a></div>
 				<br/>
 			<div style="font-size:1.4em;"></div></br>
 			

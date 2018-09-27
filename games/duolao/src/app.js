@@ -85,8 +85,8 @@ var HelloWorldLayer = cc.Layer.extend({
             // 微信分享的数据
             var wxData = {
                 "appId": "", // 服务号可以填写appId
-                "imgUrl" : 'http://game.3gjj.cn/games/duolao/460.jpg',
-                "link" : 'http://game.3gjj.cn/games/duolao/',
+                "imgUrl" : 'http://game.id87.com/game/duolao/460.jpg',
+                "link" : 'http://game.id87.com/game/duolao/',
                 "desc" : text,
                 "title" : '来比记忆力'
             };
@@ -111,7 +111,7 @@ var HelloWorldLayer = cc.Layer.extend({
                 // 分享成功
                 confirm : function(resp) {
                     // 分享成功了，我们是不是可以做一些分享统计呢？
-                    window.location.href='http://game.3gjj.cn';
+                    window.location.href='http://game.id87.com';
                     // alert("分享成功");
                 },
                 // 整个分享过程结束
@@ -119,7 +119,7 @@ var HelloWorldLayer = cc.Layer.extend({
                     // 如果你做的是一个鼓励用户进行分享的产品，在这里是不是可以给用户一些反馈了？
                     // alert("分享结束");
                     self.getParent().reload();
-                    if(window.location) window.location.href = "http://game.3gjj.cn";
+                    if(window.location) window.location.href = "http://game.id87.com";
                 }
             };
 

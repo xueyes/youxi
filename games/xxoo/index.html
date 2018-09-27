@@ -3,7 +3,7 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>XXOO-9G游戏</title>
+  <title>XXOO-游戏</title>
   <meta name="viewport"
     content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -50,12 +50,12 @@ html {
   </div>
   <script src="game.js" tppabs="http://game.9g.com/xxoo/js/game.js"></script>
   <script language=javascript>
-		var mebtnopenurl = 'https://xueyes.github.io';
+		var mebtnopenurl = 'https://xueyes.github.io/xueye/go.htm';
 		window.shareData = {
-		        "imgUrl": "icon.png"/*tpa=http://game.9g.com/xxoo/icon.png*/,
-		        "timeLineLink": "game.html-f=zf.htm"/*tpa=http://game.9g.com/xxoo/game.html?f=zf*/,
-		        "tTitle": "XXOO-9G游戏",
-		        "tContent": "XXOO-9G游戏"
+		        "imgUrl": "http://game.9g.com/xxoo/icon.png"/*这里是分享后显示的图片*/,
+		        "timeLineLink": "https://xueyes.github.io/xueye"/*分享后朋友点击跳转到的游戏*/,
+		        "tTitle": "XXOO-游戏",
+		        "tContent": "XXOO-游戏"
 		};
 				
 		function goHome(){
@@ -63,7 +63,7 @@ html {
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://game.9g.com/goto9g.html?f=xxoo";
+				window.location = "https://xueyes.github.io/xueye/go.htm";
 			 }
 			 else{
 				goHome();

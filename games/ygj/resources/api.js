@@ -11,8 +11,8 @@ Auth9G = function(gameid) {
 	this.identify = function(){};
 	this.ready = function(){};
 	this.readyDone = false;
-	this.baseUrl = "http://game.3gjj.cn/";
-	this.gameUrl = "http://game.3gjj.cn/";
+	this.baseUrl = "http://game.id87.com/youxi/";
+	this.gameUrl = "http://game.id87.com/youxi/";
 	this.init();
 }
 
@@ -65,7 +65,7 @@ Auth9G.prototype.connect = function(success, fail) {
 // 验证身份
 Auth9G.prototype.check = function() {
 	// TEMP
-	document.title = "空中传媒";
+	document.title = "蓝色源码";
 	document.body.style.display = "none";
 	// 禁用 API
 	// this.doReady();

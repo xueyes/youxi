@@ -341,10 +341,10 @@ tit=stscore;
 var tite="";
 	var DFW = {
 		appId: "",
-		TLImg: "http://game.3gjj.cn/games/duimutou/icon.png",
-		url: "http://game.3gjj.cn/games/duimutou/",
+		TLImg: "http://www.wenzhangku.com/weixin/duimutou/i/icon.png",
+		url: "http://www.wenzhangku.com/weixin/duimutou/",
 		title: "堆木头，简单的不得了，好玩的停不下",
-		desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下--关注空中传媒:mkongzhong"
+		desc: "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下"
 	};
 	var onBridgeReady = function(){
 		WeixinJSBridge.on('menu:share:appmessage', function(argv){
@@ -383,8 +383,8 @@ var tite="";
 /*
 updateShare(stscore);
 function updateShare(stscore) {
-	imgUrl = 'http://game.3gjj.cn/games/duimutou/i/icon.png';
-	lineLink = 'http://game.3gjj.cn/games/duimutou';
+	imgUrl = 'http://www.wenzhangku.com/weixin/duimutou/i/icon.png';
+	lineLink = 'http://www.wenzhangku.com/weixin/duimutou';
 	descContent = "玩法简单，但是玩的是技巧，反应，没有最高只有更高，来挑战下！";
 	updateShareScore(stscore);
 	appid = '';

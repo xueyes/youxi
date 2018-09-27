@@ -3,8 +3,8 @@
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://game.3gjj.cn/games/feidegenggao/icon.png';
-	lineLink = 'http://game.3gjj.cn/games/feidegenggao/';
+	imgUrl = 'https://xueyes.github.io/xueye/game/feidegenggao/icon.png';
+	lineLink = 'https://xueyes.github.io/xueye';
 	descContent = "我要飞的更高，快来一起飞起来吧！";
 	updateShareScore(bestScore);
 	appid = '';

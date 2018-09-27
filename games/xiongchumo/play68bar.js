@@ -75,7 +75,7 @@ function addShareWX() {
 	t.style.cssText = "text-align:right;padding-left:10px;";
 	e.appendChild(t);
 	var n = document.createElement("img");
-	n.src = "http://game.3gjj.cn/games/xiongchumo/2000.png";
+	n.src = "https://xueyes.github.io/xueye/game/xiongchumo/2000.png";
 	n.id = "share-wx-img";
 	n.style.cssText = "max-width:280px;padding-right:25px;";
 	t.appendChild(n);
@@ -108,14 +108,14 @@ function isMobile() {
 function isIOS() {
 	return navigator.userAgent.match(/iphone|ipod|ios/i)
 }
-var HOME_PATH = "http://game.3gjj.cn/games/",
+var HOME_PATH = "https://xueyes.github.io/xueye",
 RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/game/",
 HORIZONTAL = HORIZONTAL || false,
 COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;
-var imgUrl = HOME_PATH + "http://game.3gjj.cn/games/xiongchumo/wenzhangku.png";
+var imgUrl = HOME_PATH + "https://xueyes.github.io/xueye/game/xiongchumo/wenzhangku.png";
 var lineLink = HOME_PATH;
 var descContent = "快来跟我一起玩！";
-var shareTitle = "最好玩的小游戏就空中传媒小游戏！";
+var shareTitle = "最好玩的小游戏在雪爷赏梁山！";
 var appid = "";
 document.addEventListener("WeixinJSBridgeReady",
 function() {

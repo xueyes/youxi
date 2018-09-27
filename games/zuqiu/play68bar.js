@@ -75,7 +75,7 @@ function addShareWX() {
 	t.style.cssText = "text-align:right;padding-left:10px;";
 	e.appendChild(t);
 	var n = document.createElement("img");
-	n.src = "http://game.3gjj.cn/games/xcw/py.png";
+	n.src = "http://app.46465.com/html5/xcw/py.png";
 	n.id = "share-wx-img";
 	n.style.cssText = "max-width:280px;padding-right:25px;";
 	t.appendChild(n);
@@ -107,7 +107,7 @@ function isMobile() {
 function isIOS() {
 	return navigator.userAgent.match(/iphone|ipod|ios/i)
 }
-var HOME_PATH = HOME_PATH || "http://game.3gjj.cn/",
+var HOME_PATH = HOME_PATH || "http://app.46465.com/",
 RESOURCE_IMG_PATH = RESOURCE_IMG_PATH || "/images/",
 HORIZONTAL = HORIZONTAL || false,
 COVER_SHOW_TIME = COVER_SHOW_TIME || 2e3;

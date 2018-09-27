@@ -12,10 +12,10 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://game.3gjj.cn/games/xiongchumo/wenzhangku.png';
-	//var domains = ['game.3gjj.cn','www.xinwenzhang.com'];
+	imgUrl = 'http://www.wenzhangku.com/weixin/xiongchumo/wenzhangku.png';
+	//var domains = ['www.wenzhangku.com','www.xinwenzhang.com'];
 	//var domain = domains[new Date().getTime()%4];
-	lineLink = 'http://game.3gjj.cn/games/xiongchumo/';
+	lineLink = 'http://www.wenzhangku.com/weixin/xiongchumo/';
 	descContent = "反向跑酷没玩过吧？快来一起跑！";
 	updateShareScore(bestScore);
 	appid = '';

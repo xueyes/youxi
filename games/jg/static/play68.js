@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href = "http://game.3gjj.cn/games/";
+	window.location.href = "http://www.w3cschool.cc/games/";
 }
 
 function play68_submitScore(score) {
@@ -12,8 +12,8 @@ function play68_submitScore(score) {
 }
 
 function updateShare(bestScore) {
-	imgUrl = 'http://game.3gjj.cn/games/jgfx/static/icon.png';
-	lineLink = 'http://game.3gjj.cn/games/jgfx/';
+	imgUrl = 'http://www.w3cschool.cc/games/jgfx/static/icon.png';
+	lineLink = 'http://www.w3cschool.cc/games/jgfx/';
 	descContent = "来比比看谁的手指更厉害！";
 	updateShareScore(bestScore);
 	appid = '';
